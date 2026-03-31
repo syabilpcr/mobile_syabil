@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/judul_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Rumus"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/tombol_persegi_panjang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Persegi"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_tengah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/judul_menu" />
+
+    <Button
+        android:id="@+id/tombol_tabung"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tabung"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_tengah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tombol_persegi_panjang" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_tengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <TextView
+        android:id="@+id/judul_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Data"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guideline_tengah"
+        android:layout_marginStart="16dp"/>
+
+    <EditText
+        android:id="@+id/input_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Angka 1"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/judul_input"
+        app:layout_constraintStart_toEndOf="@id/guideline_tengah"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"/>
+
+    <EditText
+        android:id="@+id/input_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Angka 2"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/input_1"
+        app:layout_constraintStart_toEndOf="@id/guideline_tengah"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/tombol_hitung"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/input_2"
+        app:layout_constraintStart_toEndOf="@id/guideline_tengah"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/teks_hasil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hasil: 0"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#E1F5FE"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tombol_hitung"
+        app:layout_constraintStart_toEndOf="@id/guideline_tengah"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
