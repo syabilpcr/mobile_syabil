@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#4A90D9</color>
+    <color name="colorPrimaryDark">#2C6FAC</color>
+    <color name="colorPrimaryVariant">#357ABD</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#FF6B6B</color>
+    <color name="colorSecondaryVariant">#E05555</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- Background & Surface -->
+    <color name="colorBackground">#F5F7FA</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnBackground">#1A1A2E</color>
+    <color name="colorOnSurface">#1A1A2E</color>
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#1A1A2E</color>
+    <color name="colorTextSecondary">#6B7280</color>
+    <color name="colorTextHint">#9CA3AF</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+
+    <!-- Card & Divider -->
+    <color name="colorCard">#FFFFFF</color>
+    <color name="colorDivider">#E5E7EB</color>
+    <color name="colorCardElevation">#F0F4F8</color>
+
+    <!-- Status Colors -->
+    <color name="colorSuccess">#34C759</color>
+    <color name="colorWarning">#FF9500</color>
+    <color name="colorError">#FF3B30</color>
+    <color name="colorInfo">#007AFF</color>
+
+    <!-- Accent Colors -->
+    <color name="colorAccentBlue">#4A90D9</color>
+    <color name="colorAccentGreen">#27AE60</color>
+    <color name="colorAccentOrange">#F39C12</color>
+    <color name="colorAccentPurple">#8E44AD</color>
+
+    <!-- Button Colors -->
+    <color name="colorButtonPrimary">#4A90D9</color>
+    <color name="colorButtonSecondary">#6B7280</color>
+    <color name="colorButtonDanger">#FF6B6B</color>
+
+    <!-- Gradient Base -->
+    <color name="colorGradientStart">#4A90D9</color>
+    <color name="colorGradientEnd">#2C6FAC</color>
+
+    <!-- Legacy -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
