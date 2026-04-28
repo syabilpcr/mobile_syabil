@@ -17,7 +17,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/colorPrimary"
             app:titleTextColor="@android:color/white"
             app:layout_scrollFlags="scroll|enterAlways" />
 
@@ -28,5 +28,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <!-- Tombol Kembali ke Dashboard -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:layout_x="338dp"
+        android:layout_y="595dp"
+        android:contentDescription="Kembali"
+        android:src="@drawable/ic_arrow_back"
+        app:backgroundTint="@color/colorPrimary"
+        app:tint="@color/colorWhite" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary Colors -->
-    <color name="colorPrimary">#4A90D9</color>
-    <color name="colorPrimaryDark">#2C6FAC</color>
-    <color name="colorPrimaryVariant">#357ABD</color>
+    <!-- ===== BESMINDO THEME (Biru Navy) ===== -->
+    <color name="colorPrimary">#1A3A5C</color>
+    <color name="colorPrimaryDark">#0F2540</color>
+    <color name="colorPrimaryVariant">#2C5F8A</color>
     <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorAccent">#4A90D9</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#9E9E9E</color>
+    <color name="colorDanger">#D32F2F</color>
+    <color name="colorSubText">#757575</color>
 
     <!-- Secondary Colors -->
-    <color name="colorSecondary">#FF6B6B</color>
+    <color name="colorSecondary">#2C5F8A</color>
     <color name="colorSecondaryVariant">#E05555</color>
     <color name="colorOnSecondary">#FFFFFF</color>
 
@@ -29,7 +34,7 @@
     <color name="colorCardElevation">#F0F4F8</color>
 
     <!-- Status Colors -->
-    <color name="colorSuccess">#34C759</color>
+    <color name="colorSuccess">#2E5394</color>
     <color name="colorWarning">#FF9500</color>
     <color name="colorError">#FF3B30</color>
     <color name="colorInfo">#007AFF</color>
@@ -41,13 +46,13 @@
     <color name="colorAccentPurple">#8E44AD</color>
 
     <!-- Button Colors -->
-    <color name="colorButtonPrimary">#4A90D9</color>
+    <color name="colorButtonPrimary">#1A3A5C</color>
     <color name="colorButtonSecondary">#6B7280</color>
     <color name="colorButtonDanger">#FF6B6B</color>
 
     <!-- Gradient Base -->
-    <color name="colorGradientStart">#4A90D9</color>
-    <color name="colorGradientEnd">#2C6FAC</color>
+    <color name="colorGradientStart">#1A3A5C</color>
+    <color name="colorGradientEnd">#0F2540</color>
 
     <!-- Legacy -->
     <color name="purple_200">#FFBB86FC</color>
