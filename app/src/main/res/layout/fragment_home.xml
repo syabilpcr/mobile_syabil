@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Home.HomeFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/colorTextWhite" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorBackground"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="32dp">
+
+            <!-- Hero Header Section -->
+            <LinearLayout
+                android:id="@+id/layoutHero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingTop="32dp"
+                android:paddingBottom="40dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imgLogo"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/logo_besmindo"
+                    android:scaleType="centerCrop"
+                    android:elevation="6dp" />
+
+                <TextView
+                    android:id="@+id/tvWelcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Welcome!"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.02"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/tvSubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Silahkan pilih..."
+                    android:textSize="14sp"
+                    android:letterSpacing="0.01"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <!-- Wave / Divider Shape -->
+            <View
+                android:id="@+id/viewDivider"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="@color/colorBackground"
+                app:layout_constraintTop_toBottomOf="@+id/layoutHero"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Section Label -->
+            <TextView
+                android:id="@+id/tvSectionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:text="MATERI PERTEMUAN"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.12"
+                android:textColor="@color/colorTextSecondary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/viewDivider" />
+
+            <!-- Buttons Container Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardButtons"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@color/colorSurface"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvSectionLabel">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:id="@+id/btnPertemuan2"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:text="Pertemuan 2"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.02"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/colorTextWhite"
+                        app:cornerRadius="10dp" />
+
+                    <Button
+                        android:id="@+id/btnPertemuan3"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Pertemuan 3"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.02"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/colorTextWhite"
+                        app:cornerRadius="10dp" />
+
+                    <Button
+                        android:id="@+id/btnPertemuan4"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Pertemuan 4"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.02"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/colorTextWhite"
+                        app:cornerRadius="10dp" />
+
+                    <Button
+                        android:id="@+id/btnPertemuan5"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Pertemuan 5"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.02"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/colorTextWhite"
+                        app:cornerRadius="10dp" />
+
+                    <Button
+                        android:id="@+id/btnPertemuan6"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Pertemuan 6"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.02"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:textColor="@color/colorTextWhite"
+                        app:cornerRadius="10dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

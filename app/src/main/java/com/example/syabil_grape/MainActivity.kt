@@ -8,11 +8,11 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import com.example.syabil_grape.pertemuan2.CalcuActivity
-import com.example.syabil_grape.pertemuan3.LoginActivity
-import com.example.syabil_grape.pertemuan4.DashboardActivity
-import com.example.syabil_grape.pertemuan5.FifthActivity
-import com.example.syabil_grape.pertemuan5.WebViewActivity
+import com.example.syabil_grape.Home.pertemuan2.CalcuActivity
+import com.example.syabil_grape.Home.pertemuan3.LoginActivity
+import com.example.syabil_grape.Home.pertemuan4.DashboardActivity
+import com.example.syabil_grape.Home.pertemuan5.FifthActivity
+import com.example.syabil_grape.Home.pertemuan5.WebViewActivity
 
 class MainActivity : AppCompatActivity() {
 

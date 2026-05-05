@@ -1,12 +1,12 @@
-package com.example.syabil_grape.pertemuan6
+package com.example.syabil_grape.Home.pertemuan6
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.example.syabil_grape.Home.pertemuan3.LoginActivity
 import com.example.syabil_grape.MainActivity
 import com.example.syabil_grape.databinding.ActivitySplashScreenBinding
-import com.example.syabil_grape.pertemuan3.LoginActivity
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

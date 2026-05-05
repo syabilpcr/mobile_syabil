@@ -1,19 +1,19 @@
-package com.example.syabil_grape.pertemuan3
+package com.example.syabil_grape.Home.pertemuan6
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.syabil_grape.MainActivity
-import com.example.syabil_grape.databinding.ActivityLoginBinding
+import com.example.syabil_grape.databinding.ActivityAuthBinding
 
-class LoginActivity : AppCompatActivity() {
+class AuthActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityLoginBinding
+    private lateinit var binding: ActivityAuthBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityLoginBinding.inflate(layoutInflater)
+        binding = ActivityAuthBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val sharedPref = getSharedPreferences("user_pref", MODE_PRIVATE)
@@ -32,11 +32,11 @@ class LoginActivity : AppCompatActivity() {
             }
 
             if (username == password) {
-                // Simpan status login
-                sharedPref.edit()
-                    .putBoolean("isLogin", true)
-                    .putString("username", username)
-                    .apply()
+                // Simpan status login ke SharedPreferences
+                val editor = sharedPref.edit()
+                editor.putBoolean("isLogin", true)
+                editor.putString("username", username)
+                editor.apply()
 
                 startActivity(Intent(this, MainActivity::class.java))
                 finish()

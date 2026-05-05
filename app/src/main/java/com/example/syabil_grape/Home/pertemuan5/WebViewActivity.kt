@@ -1,5 +1,6 @@
-package com.example.syabil_grape.pertemuan5
+package com.example.syabil_grape.Home.pertemuan5
 
+import android.R
 import android.os.Bundle
 import android.view.MenuItem
 import android.webkit.WebViewClient
@@ -59,7 +60,7 @@ class WebViewActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == android.R.id.home) {
+        if (item.itemId == R.id.home) {
             finish()
             return true
         }

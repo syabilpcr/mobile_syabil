@@ -1,11 +1,11 @@
-package com.example.syabil_grape.pertemuan4
+package com.example.syabil_grape.Home.pertemuan4
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.syabil_grape.databinding.ActivityDashboardBinding
-import com.example.syabil_grape.pertemuan3.LoginActivity
+import com.example.syabil_grape.Home.pertemuan3.LoginActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 

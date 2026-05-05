@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- ===== BESMINDO THEME (Biru Navy) ===== -->
-    <color name="colorPrimary">#1A3A5C</color>
-    <color name="colorPrimaryDark">#0F2540</color>
-    <color name="colorPrimaryVariant">#2C5F8A</color>
+    <!-- ===== BESMINDO THEME (Color Hunt Palette) ===== -->
+    <color name="colorPrimary">#1B3C53</color>
+    <color name="colorPrimaryDark">#122738</color>
+    <color name="colorPrimaryVariant">#456882</color>
     <color name="colorOnPrimary">#FFFFFF</color>
-    <color name="colorAccent">#4A90D9</color>
+    <color name="colorAccent">#456882</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorGray">#9E9E9E</color>
     <color name="colorDanger">#D32F2F</color>
     <color name="colorSubText">#757575</color>
 
     <!-- Secondary Colors -->
-    <color name="colorSecondary">#2C5F8A</color>
-    <color name="colorSecondaryVariant">#E05555</color>
+    <color name="colorSecondary">#456882</color>
+    <color name="colorSecondaryVariant">#D2C1B6</color>
     <color name="colorOnSecondary">#FFFFFF</color>
 
     <!-- Background & Surface -->
-    <color name="colorBackground">#F5F7FA</color>
+    <color name="colorBackground">#F9F3EF</color>
     <color name="colorSurface">#FFFFFF</color>
-    <color name="colorOnBackground">#1A1A2E</color>
-    <color name="colorOnSurface">#1A1A2E</color>
+    <color name="colorOnBackground">#1B3C53</color>
+    <color name="colorOnSurface">#1B3C53</color>
 
     <!-- Text Colors -->
-    <color name="colorTextPrimary">#1A1A2E</color>
-    <color name="colorTextSecondary">#6B7280</color>
-    <color name="colorTextHint">#9CA3AF</color>
+    <color name="colorTextPrimary">#1B3C53</color>
+    <color name="colorTextSecondary">#456882</color>
+    <color name="colorTextHint">#D2C1B6</color>
     <color name="colorTextWhite">#FFFFFF</color>
 
     <!-- Card & Divider -->
     <color name="colorCard">#FFFFFF</color>
-    <color name="colorDivider">#E5E7EB</color>
-    <color name="colorCardElevation">#F0F4F8</color>
+    <color name="colorDivider">#D2C1B6</color>
+    <color name="colorCardElevation">#F9F3EF</color>
 
     <!-- Status Colors -->
-    <color name="colorSuccess">#2E5394</color>
+    <color name="colorSuccess">#456882</color>
     <color name="colorWarning">#FF9500</color>
     <color name="colorError">#FF3B30</color>
-    <color name="colorInfo">#007AFF</color>
+    <color name="colorInfo">#456882</color>
 
     <!-- Accent Colors -->
-    <color name="colorAccentBlue">#4A90D9</color>
+    <color name="colorAccentBlue">#456882</color>
     <color name="colorAccentGreen">#27AE60</color>
     <color name="colorAccentOrange">#F39C12</color>
     <color name="colorAccentPurple">#8E44AD</color>
 
     <!-- Button Colors -->
-    <color name="colorButtonPrimary">#1A3A5C</color>
-    <color name="colorButtonSecondary">#6B7280</color>
+    <color name="colorButtonPrimary">#1B3C53</color>
+    <color name="colorButtonSecondary">#456882</color>
     <color name="colorButtonDanger">#FF6B6B</color>
 
     <!-- Gradient Base -->
-    <color name="colorGradientStart">#1A3A5C</color>
-    <color name="colorGradientEnd">#0F2540</color>
+    <color name="colorGradientStart">#1B3C53</color>
+    <color name="colorGradientEnd">#456882</color>
 
     <!-- Legacy -->
     <color name="purple_200">#FFBB86FC</color>
@@ -62,4 +62,5 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
 </resources>
